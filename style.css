@@ -1,4 +1,3 @@
-/* Reset CSS & Box Model */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,14 +5,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Base Style Body */
 body {
     background-color: #1b2838;
     color: #c7d5e0;
     line-height: 1.6;
 }
 
-/* Header & Navigasi */
 header {
     background-color: #171a21;
     padding: 20px;
@@ -38,14 +35,12 @@ nav a:hover {
     color: #ffffff;
 }
 
-/* Container Utama Terpusat */
 main {
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
-/* Kartu Profil & Ringkasan */
 .profile-card, .summary-card {
     background-color: #2a475e;
     padding: 20px;
@@ -59,7 +54,6 @@ main {
     margin-bottom: 10px;
 }
 
-/* Layout Profil dengan Foto Kotak */
 .profile-container {
     display: flex;
     gap: 20px;
@@ -70,7 +64,7 @@ main {
 .profile-avatar {
     width: 130px;
     height: 130px;
-    border-radius: 8px; /* Kotak dengan sudut melengkung halus */
+    border-radius: 8px; 
     overflow: hidden;
     border: 3px solid #66c0f4;
     flex-shrink: 0;
@@ -91,7 +85,6 @@ main {
     margin-bottom: 6px;
 }
 
-/* Grid Ringkasan */
 .summary-grid {
     display: flex;
     gap: 15px;
@@ -111,14 +104,12 @@ main {
     font-size: 1.8rem;
 }
 
-/* Grid Katalog Game */
 .game-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 20px;
 }
 
-/* Kartu Game Item */
 .game-card {
     background-color: #2a475e;
     border-radius: 8px;
@@ -133,7 +124,6 @@ main {
     box-shadow: 0 8px 15px rgba(102, 192, 244, 0.3);
 }
 
-/* Wrapper Gambar Game (Kotak Presisi) */
 .game-img-wrapper {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -152,7 +142,6 @@ main {
     transform: scale(1.05);
 }
 
-/* Informasi Detail Game */
 .game-info {
     padding: 15px;
 }
@@ -168,7 +157,6 @@ main {
     font-size: 0.9rem;
 }
 
-/* Badge Status Game */
 .badge {
     display: inline-block;
     padding: 3px 8px;
@@ -194,12 +182,10 @@ main {
     background-color: #555555;
 }
 
-/* Styling Kartu Game Agar Terlihat Bisa Diklik */
 .game-card {
     cursor: pointer;
 }
 
-/* Modal Background Overlay */
 .modal {
     display: none;
     position: fixed;
@@ -228,10 +214,10 @@ main {
 }
 
 .modal-content img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 6px;
+    width: 70%;
+    height: 300px;
+    object-fit: center;
+    border-radius: 15px;
     margin-bottom: 15px;
 }
 
@@ -245,7 +231,6 @@ main {
     font-size: 0.95rem;
 }
 
-/* Tombol Close (X) */
 .close-btn {
     position: absolute;
     top: 10px;
@@ -260,7 +245,6 @@ main {
     color: #66c0f4;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;

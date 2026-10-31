@@ -17,7 +17,6 @@ $totalJam = hitungTotalJamBermain($gameList);
 </head>
 <body>
 
-    <!-- Header & Navigasi Utama -->
     <header>
         <h1>Profil Koleksi Game Steam</h1>
         <nav>
@@ -26,9 +25,7 @@ $totalJam = hitungTotalJamBermain($gameList);
         </nav>
     </header>
 
-    <!-- Konten Utama -->
     <main>
-        <!-- Section Profil Mahasiswa/Kolektor -->
         <section class="profile-card">
             <h2>Identitas Kolektor</h2>
             <hr><br>
@@ -58,7 +55,6 @@ $totalJam = hitungTotalJamBermain($gameList);
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; <?= date('Y'); ?> Proyek Mini UTS Pemrograman Web - Tiga Serangkai University</p>
     </footer>
