@@ -1,0 +1,271 @@
+/* Reset CSS & Box Model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Base Style Body */
+body {
+    background-color: #1b2838;
+    color: #c7d5e0;
+    line-height: 1.6;
+}
+
+/* Header & Navigasi */
+header {
+    background-color: #171a21;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #66c0f4;
+}
+
+header h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #66c0f4;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Container Utama Terpusat */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Kartu Profil & Ringkasan */
+.profile-card, .summary-card {
+    background-color: #2a475e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card h2, .summary-card h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Layout Profil dengan Foto Kotak */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 8px; /* Kotak dengan sudut melengkung halus */
+    overflow: hidden;
+    border: 3px solid #66c0f4;
+    flex-shrink: 0;
+    background-color: #171a21;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details p {
+    margin-bottom: 6px;
+}
+
+/* Grid Ringkasan */
+.summary-grid {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.summary-box {
+    flex: 1;
+    background-color: #1b2838;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.summary-box h3 {
+    color: #66c0f4;
+    font-size: 1.8rem;
+}
+
+/* Grid Katalog Game */
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+/* Kartu Game Item */
+.game-card {
+    background-color: #2a475e;
+    border-radius: 8px;
+    border: 1px solid #171a21;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(102, 192, 244, 0.3);
+}
+
+/* Wrapper Gambar Game (Kotak Presisi) */
+.game-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #171a21;
+}
+
+.game-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover .game-img-wrapper img {
+    transform: scale(1.05);
+}
+
+/* Informasi Detail Game */
+.game-info {
+    padding: 15px;
+}
+
+.game-card h3 {
+    color: #66c0f4;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.game-card p {
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+/* Badge Status Game */
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.badge-success {
+    background-color: #4c6b22;
+}
+
+.badge-warning {
+    background-color: #c17d11;
+}
+
+.badge-danger {
+    background-color: #a33833;
+}
+
+.badge-secondary {
+    background-color: #555555;
+}
+
+/* Styling Kartu Game Agar Terlihat Bisa Diklik */
+.game-card {
+    cursor: pointer;
+}
+
+/* Modal Background Overlay */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Modal Box */
+.modal-content {
+    background-color: #2a475e;
+    color: #c7d5e0;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+    border: 1px solid #66c0f4;
+}
+
+.modal-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.modal-content h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Tombol Close (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #66c0f4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #171a21;
+    color: #8f98a0;
+    font-size: 0.9rem;
+}
