@@ -18,7 +18,7 @@ $totalJam = hitungTotalJamBermain($gameList);
 <body>
 
     <header>
-        <h1>Profil Koleksi Game Steam</h1>
+        <h1>Profil Koleksi Game </h1>
         <nav>
             <a href="index.php">Profil</a> | 
             <a href="katalog.php">Katalog Game</a>
@@ -38,8 +38,7 @@ $totalJam = hitungTotalJamBermain($gameList);
                 </div>
             </div>
         </section>
-
-        <!-- Section Ringkasan Statistik -->
+        
         <section class="summary-card">
             <h2>Ringkasan Pustaka Game</h2>
             <div class="summary-grid">
