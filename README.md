@@ -24,8 +24,24 @@ Website dinamis berbasis PHP murni (tanpa database dan framework) yang menampilk
    ```text
    http://localhost/uts-pemweb-025A00200006-main/index.php
 
+### 📚 Sumber Referensi
+1. **Materi Google Classroom / LMS (Pertemuan 1–7):**
+   * **Pertemuan 1–2 (HTML5 Semantik & CSS Dasar):** Pembuatan struktur halaman menggunakan `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, serta aturan Box Model (`box-sizing: border-box`).
+   * **Pertemuan 3 (Tata Letak & Responsif):** Pengaturan CSS Grid responsif (`grid-template-columns`), Flexbox, dan efek interaktif `:hover`.
+   * **Pertemuan 4 (PHP Dasar & Sintaks):** Deklarasi `declare(strict_types=1);`, variabel bertipe, operator, dan penggabungan kode PHP dalam HTML.
+   * **Pertemuan 5 (Struktur Kontrol & Percabangan):** Penggunaan percabangan (`if/else`, `match expression`) untuk penentuan status dan *badge* warna dinamis.
+   * **Pertemuan 6 (Array & Perulangan):** Pengolahan data array multidimensi (array asosiatif) dan pencetakan data ke HTML menggunakan perulangan `foreach`.
+   * **Pertemuan 7 (Fungsi Kustom & Fungsi Bawaan Array):** Pembuatan fungsi kustom bertipe, implementasi fungsi array bawaan (`count`, `array_column`, `array_sum`), serta sanitasi keamanan output (`htmlspecialchars`).
+2. **PHP Manual (php.net):** Referensi dokumentasi resmi sintaks dan fungsi bawaan PHP.
+3. **MDN Web Docs:** Referensi standar elemen HTML5 dan Manipulasi DOM JavaScript untuk modal pop-up.
 
-   ## 📸 Tangkapan Layar (Screenshot)
+### 🤖 Penggunaan AI
+Dalam pengerjaan proyek mini ini, bantuan AI digunakan untuk:
+* **Brainstorming & Perancangan:** Membantu penentuan tema koleksi game Steam dan penyusunan struktur array multidimensi pada `data.php`.
+* **Refactoring & Clean Code:** Memberikan masukan perbaikan kode berdasarkan *peer review* (penyesuaian warna *badge* status dan optimasi fungsi modal).
+* **Dokumentasi & Peer Review:** Membantu menyusun draf lembar review terstruktur dan penulisan dokumen `README.md`.
+
+## 📸 Tangkapan Layar (Screenshot)
 
 ### 1. Halaman Profil (`index.php`)
 ![Halaman Profil](assets/SS-Profil.png)
