@@ -8,7 +8,7 @@ $gameList = [
         'genre' => 'RPG',
         'jam_main' => 120,
         'rating' => 4.4,
-        'status' => 'Tamat',
+        'status' => 'Belum Tamat',
         'gambar' => 'assets/The Witcher 3 Wild Hunt.jpg',
         'deskripsi' => 'Sebagai Geralt dari Rivia, seorang pemburu monster profesional (Witcher), kamu berkelana di dunia open-world luas yang dipenuhi intrik politik, monster mengerikan, dan dilema moral. Misi utamamu adalah menemukan Ciri, anak angkatmu yang dikejar oleh kelompok gaib bernama Wild Hunt. Game ini menawarkan kebebasan eksplorasi, sistem bertarung dengan pedang dan sihir, serta alur cerita mendalam di mana setiap pilihan memiliki konsekuensi nyata..'
     ],
@@ -38,7 +38,7 @@ $gameList = [
         'genre' => 'Sandbox',
         'jam_main' => 351,
         'rating' => 4.8,
-        'status' => 'Belum Tamat',
+        'status' => 'Tamat',
         'gambar' => 'assets/Minecraft.jpg',
         'deskripsi' => 'Game sandbox tanpa batas tempat pemain memanipulasi dunia piksel 3D yang dibentuk dari kubus-kubus material. Dalam Mode Survival, kamu harus mengumpulkan sumber daya, membuat peralatan, membangun tempat berlindung, dan bertahan hidup dari serangan monster di malam hari. Bagi yang menyukai kebebasan berkreasi, Mode Creative menyediakan sumber daya tak terbatas untuk merancang arsitektur megah hingga mekanisme sirkuit Redstone yang rumit.'
     ],
