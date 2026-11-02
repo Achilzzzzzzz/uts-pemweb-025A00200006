@@ -39,7 +39,7 @@ Website dinamis berbasis PHP murni (tanpa database dan framework) yang menampilk
 Dalam pengerjaan proyek mini ini, bantuan AI digunakan untuk:
 * **Brainstorming & Perancangan:** Membantu penentuan tema koleksi game Steam dan penyusunan struktur array multidimensi pada `data.php`.
 * **Refactoring & Clean Code:** Memberikan masukan perbaikan kode berdasarkan *peer review* (penyesuaian warna *badge* status dan optimasi fungsi modal).
-* **Dokumentasi & Peer Review:** Membantu menyusun draf lembar review terstruktur dan penulisan dokumen `README.md`.
+
 
 ## 📸 Tangkapan Layar (Screenshot)
 
